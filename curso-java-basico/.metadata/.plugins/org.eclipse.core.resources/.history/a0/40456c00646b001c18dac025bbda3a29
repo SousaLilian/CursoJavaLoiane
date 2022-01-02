@@ -1,0 +1,23 @@
+package aula15;
+
+import java.util.Scanner;
+
+public class Exer11 {
+
+public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Digite o salário");
+		Double salario = scan.nextDouble();
+		
+		int percentual;
+		if (salario <=280) {
+			percentual = 20;
+		} else if (salario > 280 && salario <= 700) {
+			percentual = 15;
+		}
+		
+		scan.close();
+}
+}

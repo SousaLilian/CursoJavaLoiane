@@ -1,0 +1,14 @@
+package aula15;
+
+import java.util.Scanner;
+
+public class Exer13 {
+
+	Scanner scan = new Scanner(System.in);
+	
+	System.out.println("Entre com o valor/hora:");
+	double valorHora = scan.nextDouble();
+	
+	scan.close();
+	
+}
