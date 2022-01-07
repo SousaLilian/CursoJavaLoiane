@@ -1,0 +1,48 @@
+package aula17;
+
+import java.util.Scanner;
+
+public class Exer32 {
+
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+		
+		boolean naoTerminar = true;
+		int cod, qtd;
+		int total = 0;
+		String output = "";
+	
+		
+		do {
+			
+			System.out.println("Digite o código e a quantidade. Digite 0 0 para sair.");
+			cod = scan.nextInt();
+			qtd = scan.nextInt();
+			
+			if ( cod == 0 && qtd == 0) {
+				naoTerminar = false;
+			} else {
+				
+				if (cod == 100) {
+					output += "Cachorro Quente -> 1,20 * " + qtd;
+					output += " = " + (1.2*qtd) + "/n";
+					
+				}
+			}
+		
+			
+		} while(naoTerminar);
+		
+		
+		
+		
+		
+		
+		
+		
+
+		scan.close();
+
+	}
+}

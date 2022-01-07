@@ -24,6 +24,7 @@ public class LoopWhile {
 		do {
 			i++;
 			System.out.println("Valor de i: " + i);
+			
 		} while (i <15);
 		
 		System.out.println(i);

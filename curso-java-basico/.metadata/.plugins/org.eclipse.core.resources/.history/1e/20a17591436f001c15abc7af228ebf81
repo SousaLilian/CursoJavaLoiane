@@ -1,0 +1,30 @@
+package aula17;
+
+import java.util.Scanner;
+
+public class Exer25 {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		boolean sair = false;
+		String continuarCompra;
+		
+		do {
+			
+			System.out.println("Deseja informar uma nova compra? S/N");
+			continuarCompra = scan.next();
+			
+			System.out.println();
+			
+			
+			
+			
+			
+		} while(!sair);
+		
+		scan.close();
+		
+	}
+}

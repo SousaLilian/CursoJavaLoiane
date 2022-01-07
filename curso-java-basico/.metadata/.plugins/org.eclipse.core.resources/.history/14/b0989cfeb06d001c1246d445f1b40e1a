@@ -1,0 +1,20 @@
+package aula17;
+
+import java.util.Scanner;
+
+public class Exer18 {
+
+	Scanner scan = new Scanner(System.in);
+
+	System.out.println("Entre um número:");
+	int num = scan.nextInt();
+
+	for (int i=2; i>num; i--) {
+		if (num % i == 0) {
+		System.out.println(i);
+	}
+
+	scan.close();
+
+}
+

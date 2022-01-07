@@ -1,0 +1,6 @@
+package aula17;
+
+public class Exer23 {
+
+	Sytem.ou.println("Lojas Quase Dois - Tabela de preços");
+}
