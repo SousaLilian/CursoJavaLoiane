@@ -1,4 +1,0 @@
-INDEX VERSION 1.131+C:\Users\slili\Desktop\curso-loiane.training\curso-java-basico\.metadata\.plugins\org.eclipse.jdt.core
-1865797976.index
-213284972.index
-370538370.index

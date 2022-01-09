@@ -1,9 +1,0 @@
-package aula17;
-
-public class Exer23 {
-	
-	public static void main(String[] args) {
-		
-		System.out.println("Lojas Quase Dois - Tabela de preços");
-	}
-}	
